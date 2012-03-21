@@ -2,7 +2,7 @@
 
 This project rocks and uses MIT-LICENSE.
 
-  config.middlmware.insert_before ActionDispatch::Static, "HealthCheck"
+  config.middlmware.insert_before ActionDispatch::Static, "HealthChecker"
 
 add this line into your config/application.rb
 
