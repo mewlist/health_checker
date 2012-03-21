@@ -1,3 +1,3 @@
-module HealthChecker
-  VERSION = "0.0.2"
+class HealthChecker
+  VERSION = "0.0.3"
 end
