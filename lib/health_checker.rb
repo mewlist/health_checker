@@ -1,4 +1,4 @@
-module HealthChecker
+class HealthChecker
   def initialize(app)
     @app = app
   end
