@@ -1,3 +1,9 @@
 = HealthChecker
 
 This project rocks and uses MIT-LICENSE.
+
+  config.middlmware.insert_before ActionDispatch::Static, "HealthCheck"
+
+add this line into your config/application.rb
+
+now your application accepts /health_check
