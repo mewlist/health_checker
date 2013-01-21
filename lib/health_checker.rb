@@ -6,7 +6,7 @@ class HealthChecker
   def call(env)
     if env['REQUEST_URI'] == '/health_check'
       header ||= {}
-      [200, header, 'healthy']
+      [200, header, ['healthy']]
     else
       @app.call env
     end
