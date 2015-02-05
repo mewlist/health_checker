@@ -2,7 +2,7 @@
 
 This project rocks and uses MIT-LICENSE.
 
-  config.middlmware.insert_before 0, "HealthChecker"
+  config.middleware.insert_before 0, "HealthChecker"
 
 add this line into your config/application.rb
 
